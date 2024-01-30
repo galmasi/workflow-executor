@@ -1,7 +1,5 @@
 name: executortest
-
 on: workflow_dispatch
-
 jobs:
   executortest_job1:
     runs-on: ubuntu-latest
