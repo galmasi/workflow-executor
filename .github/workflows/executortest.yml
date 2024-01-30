@@ -1,0 +1,12 @@
+name: executortest
+
+on: workflow_dispatch
+
+jobs:
+  executortest_job1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: echo
+        run: |
+          echo "This is just a test"
